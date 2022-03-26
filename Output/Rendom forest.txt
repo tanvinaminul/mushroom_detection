@@ -1,0 +1,101 @@
+AUC_ROC IS : 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2968
+           1       1.00      1.00      1.00      2719
+
+    accuracy                           1.00      5687
+   macro avg       1.00      1.00      1.00      5687
+weighted avg       1.00      1.00      1.00      5687
+
+
+
+ROC_AUC IS : 
+1.0
+
+
+ACCURACY IS : 
+0.9991208018287322
+
+
+BEST SCORE IS : 
+0.9971244012682993
+
+
+BEST HYPERPARAMETERS ARE : 
+{'n_estimators': 160, 'min_samples_leaf': 10, 'max_features': 'auto'}
+
+
+CONFUSION MATRIX IS : 
+[[2968    0]
+ [   5 2714]]
+
+
+
+
+F1 = 2 * (precision * recall) / (precision + recall)
+F1 SCORE OF TEST AND PREDICTION : 
+[0.99915839 0.9990797 ]
+
+
+Performing Cross Validation now...
+
+
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1375: UserWarning: Note that pos_label (set to [0, 1]) is ignored when average != 'binary' (got None). You may use labels=[pos_label] to specify a single positive class.
+  UserWarning,
+
+Train score: 
+ [1.         0.98214286 0.98181818 1.         1.         1.
+ 1.         0.96491228 0.96428571 1.        ] 
+
+Training Accuracy: 0.99 (+/- 0.03)
+
+
+Test score: 
+ [1.         1.         0.95454545 0.96923077 1.         1.
+ 0.984375   1.         1.         0.98387097] 
+
+Test Accuracy: 0.99 (+/- 0.03)
+
+
+time taken by date time method is 13m:43s
+
+
+Accuracy is :
+ 0.9991208018287322
+Confusion Matrix  is :
+[[2968    0]
+ [   5 2714]]
+
+
+AUC_ROC IS : 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2968
+           1       1.00      1.00      1.00      2719
+
+    accuracy                           1.00      5687
+   macro avg       1.00      1.00      1.00      5687
+weighted avg       1.00      1.00      1.00      5687
+
+
+
+F1 Score  is : [0.99915839 0.9990797 ]
+Best Score :  0.9971244012682993
+
+
+Best Parameters - Hyperparameters {'n_estimators': 160, 'min_samples_leaf': 10, 'max_features': 'auto'}
+
+
+Train score: 
+ [1.         0.98214286 0.98181818 1.         1.         1.
+ 1.         0.96491228 0.96428571 1.        ] 
+
+Training Accuracy: 0.99 (+/- 0.03)
+
+
+Test score: 
+ [1.         1.         0.95454545 0.96923077 1.         1.
+ 0.984375   1.         1.         0.98387097] 
+
+Test Accuracy: 0.99 (+/- 0.03)
