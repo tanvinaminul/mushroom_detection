@@ -5,7 +5,7 @@ Detect poisonous and edible mushroom using Machine Learning
 * Dataset(we work with mushroom.csv)
 ## Description
 - Upload the ipynb in google colab
-- upload mushroom.csv in content directory
+- upload mushroom.csv in "/content/" directory
 - run all cell with Ctrl+F9
 - If need to get the output image use the matplot command
 '''
