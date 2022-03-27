@@ -8,9 +8,9 @@ Detect poisonous and edible mushroom using Machine Learning
 - upload mushroom.csv in "/content/" directory
 - run all cell with Ctrl+F9
 - If need to get the output image use the matplot command
-'''
+```
 plt.savefig("file name")
-'''
+```
 ## Methods
 Total three classifation methods used in this project
 * KNN
